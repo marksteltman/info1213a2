@@ -1,0 +1,74 @@
+h1 {
+  color: #28e06c;
+}
+
+#carousel {
+  width: 80;
+}
+
+#body {
+  padding: 5px;
+}
+
+hr {
+  border-color: #049439;
+  border-width: 1px;
+  margin-right: 50%;
+}
+
+.navbar {
+ width: 50%;
+ background-color: #9403fc;
+ text-decoration-color: #049439;
+}
+
+.section-header {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+
+p {
+  width: 45%;
+}
+
+em {
+  color: #28e06c;
+}
+
+h3 + table, tr, td {
+  border-color: #049439;
+  border-width: 2px;
+  border-style: solid;
+}
+
+td {
+  padding: 6px;
+}
+
+form label {
+  width: 100px;
+  display: inline-block;
+}
+
+label select {
+  margin-top: 6px;
+}
+
+form label.label-expand {
+  width: 350px;
+}
+
+form input {
+  border-color: #28e06c;
+  background-color: #049439;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+body {
+  background: #6c4191;
+  font-family: "Special Elite", cursive;
+}
