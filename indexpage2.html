@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="indexpage2.css">
@@ -18,6 +19,7 @@
 
                 <div id="body">
 
+                    <!--Navbar-->
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html">Home</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,43 +45,74 @@
                     <!--mission statement-->
                     <div>
                     <h3 class="section-header">Cool Guy Mission Statement</h3>
-                        <p>As a cool guy it is my job to not only be cool but to make it look effortless. To apear as if everything i do comes naturally and did not take years of training. I spent the School for Coolness has given me just that. 4 years of training to eat, breath and sleep coolness. 
-                        After my 4 year stint of school i worked under <em>Sir Vincent McCooler the 3rd</em> as his assistant for 4 more years. McCooler released me on the fourth year, convinced that i was ready to go out on my own. Ill admit it was challenging to go out on my own but I was indeed ready.
+                        <p>As a professnional cool guy it is my job to not only be cool but to make it look effortless. To apear as if everything i do, comes naturally. I need to act as though my coolness didn't require years of training. 
+                        I earned a degree in coolology from The School for Coolness. 4 years of training to eat, sleep and breath coolness. After my 4 year stint of school i worked under <em>Sir Vincent McCooler the 3rd</em> 
+                        as an assistant cool guy for 4 more years. McCooler released me on the fourth year, convinced that i was ready to go out on my own. Ill admit it was challenging but I was indeed ready.
                         I have been a private contracter as a professional cool guy for several years now and I have learned the secret to being truely cool. 
                         </p>
                     </div>
 
                     <!--Education Table-->
                     <h3 class="section-header">Education</h3>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>2005-2009</td>
-                                <td>highcool school</td>
-                            </tr>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                    Highschool
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2005-2009</li>
+                                    <li class="list-group-item">highcool school</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                    Post Secondary
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2009-2013</li>
+                                    <li class="list-group-item">Cool School University</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
 
-                            <tr>
-                                <td>2009-2013</td>
-                                <td>Cool School University</td>
-                            </tr>
-                        </tbody>
-                    </table>
 
-                    <!--Work Experience Table-->
+                    <!--Work Experience Table-->                   
                     <h3 class="section-header">Work Experience</h3>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>2013-2017</td>
-                                <td>Cool Guy's Assistant</td>
-                            </tr>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                    Assistant
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2013-2017</li>
+                                    <li class="list-group-item">Cool Guy's Assistant</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div class="col-3">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-header">
+                                    Professional
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">2017-2020</li>
+                                    <li class="list-group-item">Cool Guy contractor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>    
 
-                            <tr>
-                                <td>2017-2020</td>
-                                <td>Professional Cool Guy contractor</td>
-                            </tr>
-                        </tbody>
-                    </table>
 
                     <!--Skills and Abilities List-->
                     <h3 class="section-header">Skills & Abilities</h3>
@@ -91,11 +124,7 @@
                         <li>driven a jet ski with out using my hands</li>
                     </ul>
 
-                    <div id="address">
-                        <h5>5320 Fake St.</h5>
-                        <h5>Vancouver, British Columbia</h5>
-                        <h5>272-059-8877</h5>
-                    </div>
+                   
                     
                     <!--Registration Form-->
                     <p><strong>If you would like to hire me please fill out the registration info below</strong></p>
@@ -109,36 +138,80 @@
                             <label for="male"><input id="male" name="gender" type="radio" value="male">Male</label>
                             <label for="female"><input id="female" name="gender" type="radio" value="female">Female</label>
                             <label for="other"><input id="other" name="gender" type="radio" value="other">Other</label>
-                        </div>
+                        </div>   
                     
-                        <div>
-                        <label>First Name:</label>
-                        <input name="first" id="first" type="text" placeholder="ex. Bort" required>
-                        <label>Last Name:</label>
-                        <input name="last" id="last" type="text" placeholder="ex. Gunderson" required>
-                        </div> 
+                    
+                        <!--Input Group-->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-4">        
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text" id="basic-addon1">First Name:</div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="ex. Bort" aria-label="First Name" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>    
 
-                        <div>
-                            <label>E-mail:</label>
-                            <input name="e-mail" type="email" placeholder="ex. e-mail@email.com" required>
-                            <label>Password:</label>
-                            <input name="password" type="password" placeholder="ex. password123" required>
-                        </div>
+                                <div class="col-4">
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text" id="basic-addon2">Last Name:</div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="ex. Gunderson" aria-label="Last Name" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                            </div>      
+                        </div>            
+                        
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-4">  
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text" id="basic-addon3">E-mail:</div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="ex. e-mail@email.com" aria-label="E-mail" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                
+                                <div class="col-4"> 
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text" id="basic-addon4">Password:</div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="ex. password123" aria-label="Password" aria-describedby="basic-addon1">
+                                    </div>
+                                </div> 
+                            </div>        
+                        </div>       
+                        
+                        <!--Dropdown-->
+                        <p>How did you hear of my services?</p>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Reference
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Friend/Family</a>
+                              <a class="dropdown-item" href="#">Observation</a>
+                              <a class="dropdown-item" href="#">Advertisement</a>
 
-                        <div>
-                            <label class="label-expand">How did you hear of my services?
-                                <select>
-                                    <option>Friend/Family</option>
-                                    <option>Observation</option>
-                                    <option>Advertisement</option>
-                                    <option>Other</option>
-                                </select>
-                            </label>
-                        </div>
-                    
-                        <input type="submit" >
-                    
+                            </div>
+                          </div>
+
                     </form>
+
+                          <button type="button" class="btn btn-lg btn-success" data-toggle="popover" title="Popover title" data-content="This button has been does not work.">Submit</button>
+                    
+
+                    <!--Contact Info-->
+                    <div id="address">
+                        <h5>5320 Fake St.</h5>
+                        <h5>Vancouver, British Columbia</h5>
+                        <h5>272-059-8877</h5>
+                    </div>
+ 
                 </div>
             </div>
 
