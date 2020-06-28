@@ -1,0 +1,62 @@
+#body {
+  padding: 5px;
+}
+
+.navbar {
+  background-color: #049439;
+ } 
+
+hr {
+  border-color: #049439;
+  border-width: 1px;
+  margin-right: 50%;
+}
+
+
+p {
+  width: 75%;
+}
+
+em {
+  color: #28e06c;
+}
+
+h1 {
+  color: #28e06c;
+}
+
+.section-header {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+
+.card-header {
+ background-color: #28e06c;
+}
+
+.list-group-item{
+  background-color: #049439;
+}
+
+.input-group {
+  background-color: #049439;
+  width: 450px
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.button-group-collapse {
+  margin-top: 5px;
+}
+
+.card-body {
+  background-color: #049439;
+}
+
+body {
+  background: #6c4191;
+  font-family: "Special Elite", cursive;
+}
