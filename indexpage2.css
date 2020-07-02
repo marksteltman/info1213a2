@@ -35,25 +35,22 @@ h1 {
  background-color: #28e06c;
 }
 
+.card-body {
+  background-color: #049439;
+}
+
 .list-group-item{
   background-color: #049439;
 }
 
 .input-group {
   background-color: #049439;
-  width: 450px
-}
-
-form div {
+  width: 450px;
   margin-bottom: 10px;
 }
 
 .button-group-collapse {
   margin-top: 5px;
-}
-
-.card-body {
-  background-color: #049439;
 }
 
 body {
