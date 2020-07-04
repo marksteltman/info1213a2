@@ -1,8 +1,8 @@
 body {
-    background: url(https://images.unsplash.com/photo-1588281345136-9893252095bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80);
+    background: url(https://images.unsplash.com/photo-1588281345136-9893252095bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80); 
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Special Elite', cursive;
 }
 
 .jumbotron {
@@ -12,5 +12,4 @@ body {
     text-align: center;
     font-family: 'Special Elite', cursive;
 }
-
 
